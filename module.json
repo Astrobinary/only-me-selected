@@ -2,11 +2,11 @@
   "id": "only-me-selected",
   "title": "Only Me Selected!",
   "description": "When a player is in combat, this makes sure their own character is always selected.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "Astrobinary",
-      "url": "",
+      "url": "https://github.com/Astrobinary/only-me-selected",
       "discord": "Astrobinary"
     }
   ],
@@ -38,8 +38,7 @@
   "readme": "https://github.com/Astrobinary/only-me-selected/blob/main/README.md",
   "bugs": "https://github.com/Astrobinary/only-me-selected/issues",
   "changelog": "https://github.com/Astrobinary/only-me-selected/releases/latest/",
-  "manifest": "https://github.com/Astrobinary/only-me-selected/blob/main/module.json",
-  "download": "https://github.com/Astrobinary/only-me-selected/archive/refs/tags/v1.0.0.zip",
+  "manifest": "https://raw.githubusercontent.com/astrobinary/only-me-selected/main/module.json",
   "protected": false,
   "coreTranslation": false,
   "library": false
