@@ -31,7 +31,7 @@ Hooks.on('updateCombat', (combat) => {
 });
 
 Hooks.on("controlToken", (token, controlled) => {
-   const isTargetOnlySetting = game.settings.get("only-me-selected", "onlyTarget");
+   // const isTargetOnlySetting = game.settings.get("only-me-selected", "onlyTarget");
 
    if (!controlled) { // Triggered when attempting to deselect
       const user = game.user;
@@ -40,7 +40,6 @@ Hooks.on("controlToken", (token, controlled) => {
       if (user.isGM) return;  // Allow GMs to bypass this restriction
 
       if (!token || !token.actor) return;
-      // if (!token || !token.actor || token.actor.id !== user.character?.id) return;
 
       // Check if the player is in combat and has a target selected
       const inCombat = game.combats.some(combat => combat.combatants.some(combatant => combatant.actor.id === token.actor.id && combatant.initiative !== null));
@@ -58,7 +57,7 @@ Hooks.on("controlToken", (token, controlled) => {
       // }
 
       if (inCombat) {
-         // ui.notifications.warn("You cannot deselect your token while in combat and with a target selected.");
+         ui.notifications.warn("You cannot deselect your token while in combat and with a target selected.");
          token.control({ releaseOthers: false });
          return false;
       }
