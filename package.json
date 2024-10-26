@@ -17,12 +17,16 @@
     "svelte": "^4.2.19"
   },
   "devDependencies": {
+    "@league-of-foundry-developers/foundry-vtt-types": "^9.280.1",
     "@typhonjs-config/eslint-config": "^0.6.0",
     "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
     "eslint": "^8",
     "vite": "^5.4.10"
   },
-  "browserslist": [">5%", "not IE 11"],
+  "browserslist": [
+    ">5%",
+    "not IE 11"
+  ],
   "scripts": {
     "build": "vite build",
     "dev": "vite",

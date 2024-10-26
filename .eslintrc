@@ -35,6 +35,7 @@
         "status",
         "top"
       ]
-    }]
+    }],
+    "allowSingleLine": true
   }
 }

@@ -1,17 +1,17 @@
 {
-  "id": "template-svelte-esm",
-  "title": "Template Svelte (ESM)",
-  "description": "Provides a bare-bones Foundry module template repo to get set up with using the TyphonJS Runtime Library and Svelte with ES Modules.",
-  "version": "0.0.0",
+  "id": "only-me-selected",
+  "title": "Only Me Selected!",
+  "description": "When a player is in combat, this makes sure their own character is always selected.",
+  "version": "1.0.0",
   "authors": [
     {
-      "name": "Michael Leahy (TyphonJS) - MLeahy#4299",
-      "url": "https://www.typhonjs.io",
-      "discord": "MLeahy#4299"
+      "name": "Astrobinary",
+      "url": "",
+      "discord": "Astrobinary"
     }
   ],
   "compatibility": {
-    "minimum": "10",
+    "minimum": "11",
     "verified": "12"
   },
   "esmodules": [
@@ -34,12 +34,11 @@
     }
   ],
   "socket": false,
-  "url": "https://github.com/typhonjs-fvtt-demo/template-svelte-esm",
-  "readme": "https://github.com/typhonjs-fvtt-demo/template-svelte-esm/blob/master/README.md",
-  "bugs": "https://github.com/typhonjs-fvtt-demo/template-svelte-esm/issues",
-  "changelog": "https://github.com/typhonjs-fvtt-demo/template-svelte-esm/releases/latest/",
-  "manifest": "https://github.com/typhonjs-fvtt-demo/template-svelte-esm/releases/latest/download/module.json",
-  "download": "https://github.com/typhonjs-fvtt-demo/template-svelte-esm/releases/download/0.0.0/module.zip",
+  "url": "https://github.com/Astrobinary/only-me-selected",
+  "readme": "https://github.com/Astrobinary/only-me-selected/blob/main/README.md",
+  "bugs": "https://github.com/Astrobinary/only-me-selected/issues",
+  "changelog": "https://github.com/Astrobinary/only-me-selected/releases/latest/",
+  "manifest": "https://github.com/Astrobinary/only-me-selected/releases/latest/download/module.json",
   "protected": false,
   "coreTranslation": false,
   "library": false
