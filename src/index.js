@@ -57,7 +57,7 @@ Hooks.on("controlToken", (token, controlled) => {
       // }
 
       if (inCombat) {
-         ui.notifications.warn("You cannot deselect your token while in combat and with a target selected.");
+         // ui.notifications.warn("You cannot deselect your token while in combat and with a target selected.");
          token.control({ releaseOthers: false });
          return false;
       }
