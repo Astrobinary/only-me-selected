@@ -2,7 +2,7 @@
   "id": "only-me-selected",
   "title": "Only Me Selected!",
   "description": "When a player is in combat, this makes sure their own character is always selected.",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "authors": [
     {
       "name": "Astrobinary",
